@@ -1,8 +1,9 @@
 import { useEffect, useRef } from 'react';
 import type { Map as LeafletMap } from 'leaflet';
 import { MapContainer, TileLayer, Marker } from 'react-leaflet';
-import type { Place } from "../api/Place";
 import 'leaflet/dist/leaflet.css';
+import type { Place } from "../api/Place";
+
 
 interface MapProps {
     place: Place | null;
